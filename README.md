@@ -9,6 +9,12 @@ All great discoveries begins with a clueless curious explorer seeking the next o
 - got into code during the 2019 pandemic; and
 - believe I have so much to learn from excellent people here.
 
+### How new am I?
+- I know HTML and CSS
+- I know Javascript (super basic)
+- I know (and am very interested in) Python (beginner level)
+- I came here to read and learn simple projects, ascend in difficulty, and start writing my own projects.
+- It would be nice to meet like-minded people along the way. 😄
 
 <!--
 **downtRoddenn/downtRoddenn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
