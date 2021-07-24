@@ -1,7 +1,7 @@
 ### Hi there 👋
-All great things begins with a clueless curious person seeking the next opportunity to understand the unknown.
+All great discoveries begins with a clueless curious explorer seeking the next opportunity to understand the unknown.
 
-# Let me introduce myself: I..
+## Let me introduce myself: I..
 - am 22-year old Filipino currently residing at Batangas, Philippines.
 - am currently taking BS Mechanical Engineering at Batangas State University Alangilan Campus.
 - like dogs (I have a 7-year old shihtzu), progressive house music, party games, and reading YA books.
