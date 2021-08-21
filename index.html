@@ -1,46 +1,66 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="./style_.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Roddenverse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44508796e0.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+    <main class="container middle">
+        <article class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <section class="slide show">
+                <span class="name">
+                    <h1>Rodden Jose De Chavez</h1>
+                    <h2>Portfolio Website</h2>
+                    <h4>Some insignificant guy with a lacking sense of direction and a lot of unfinished work.</h4>
+                </span>
+            </section>
+            <section class="slide">
+                <span class="basicinfo">
+                    <h3 class="intro">About me:</h3> 
+                    <div id="occupation">Mechanical Engineer</div>
+                    <div id="nationality">Filipino</div>
+                    <div id="speak">Fluent in English and Filipino</div>
+                    <div id="location">Based at Batangas, Philippines</div>
+                </span>
+            </section>
+            <section class="slide">
+                <span class="hobbies">
+                    <h4>All great discoveries begins with a clueless curious explorer seeking the next opportunity to understand the unknown.</h4>
+                    <h3>My Hobbies:</h3>
+                    <ul class="hobbieslist">
+                        <li id="reading">Reading Young Adult books</li>
+                        <li id="writing">Writing short stories</li>
+                        <li id="playing">Playing cooperative video games</li>
+                    </ul>                    
+                </span>
+            </section>
+            <section class="slide">
+                <span class="socmed">
+                    <h3>Social Media</h3>
+                    <div class="sm">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </span>
+            </section>
 
-<header>
-    <h1 class="name">Rodden Jose De Chavez</h1>
-    <h2 class="pagetype">Portfolio Website</h2>
-    <h4 class="quote1">Some insignificant guy with a lacking sense of direction<br/> and a lot of unfinished work.</h4>
-</header>
-
-<main class="container">
-    <main class="content"> 
-        <span class="basicinfo">
-            <h3 class="intro">About me:</h3> 
-            <div id="occupation">Mechanical Engineer</div>
-            <div id="nationality">Filipino</div>
-            <div id="speak">Fluent in English and Filipino</div>
-            <div id="location">Based at Batangas, Philippines</div>
-        </span>
-
-        <span class="hobbies">
-            <h4 class="quote2">All great discoveries begins with a clueless curious explorer seeking the next opportunity to understand the unknown.</h4>
-            <h3 class="intro">My Hobbies:</h3>
-            <ul class="hobbieslist">
-                <li id="reading">Reading Young Adult books</li>
-                <li id="writing">Writing short stories</li>
-                <li id="playing">Playing cooperative video games</li>
-            </ul>
-        </span>
+            <aside class="navigation">
+                <label for="r1" class="page"><i class="fas fa-user"></i></label>
+                <label for="r2" class="page"><i class="fas fa-info"></i></label>
+                <label for="r3" class="page"><i class="fas fa-walking"></i></label>
+                <label for="r4" class="page"><i class="fas fa-phone"></i></label>
+            </aside>
+        </article>
     </main>
-</main>
-
-    <aside class="socmeds">
-        <h3 class="intro">Social Medias</h3>
-        <div id="twitter">Twitter: @RoddenJose</div>
-        <div id="github">GitHub: downtRoddenn</div>
-        <div id="gmail">Gmail: rj5dechavez@gmail.com</div>
-    </aside>
-
 </body>
 </html>
