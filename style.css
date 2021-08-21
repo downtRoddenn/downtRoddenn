@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("./images/Backdrop.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.middle{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 70%;
+    height: 60%;
+    background-color: #4f4f4f;
+    overflow: hidden;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.page{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ddd;
+    margin: 0 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6s;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px #000f;
+}
+
+.page i{
+    transform: scale(1.25);
+}
+
+.page:hover{
+    border-color: #f09;
+    background: #f09;
+    transform: scale(1.2);
+    color: #bdb;
+    box-shadow: 0 15px 50px #111d;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slides section{
+    width: 25%;
+    transition: 0.6s;
+}
+
+#r1:checked ~ .show{
+    margin-left: 0;
+}
+#r2:checked ~ .show{
+    margin-left: -25%;
+}
+#r3:checked ~ .show{
+    margin-left: -50%;
+}
+#r4:checked ~ .show{
+    margin-left: -75%;
+}
+
+.name{
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.basicinfo{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.hobbies{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.socmed{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm a i{
+    color: #fff;
+    size: 50px;
+}
